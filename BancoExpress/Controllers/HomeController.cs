@@ -33,13 +33,26 @@ namespace BancoExpress.Controllers
             return View();
         }
 
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult Cadastro()
+        {
+            return View();
+        }
         public IActionResult Editar()
         {
             return View();
         }
 
+        public IActionResult Apagar()
+        {
+            return View();
+        }
 
-        public IActionResult Privacy()
+        public IActionResult Adicionar()
         {
             return View();
         }
