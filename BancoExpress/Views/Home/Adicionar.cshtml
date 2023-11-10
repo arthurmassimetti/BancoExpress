@@ -1,24 +1,67 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>use esta pagina para deixar a home</p>
-</div>
+﻿<h1>Cadastro de novos funcionarios</h1>
 <form>
     <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <label for="exampleInputEmail1">Nome do funcionario</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Coloque aqui o nome do funcionario">
     </div>
     <div class="form-group">
-        <label for="exampleInputPassword1">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        <label for="exampleInputEmail1">Tipo de contrato</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Coloque aqui o tipo de contrato">
     </div>
-    <div class="form-group form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Cargo</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Coloque aqui o cargo do funcionario">
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Telefone</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Coloque aqui o telefone">
+    </div>
+    <div>
+        <label for="exampleInputEmail1">Estado</label>
+        <select class="form-select" aria-label="Selecione o estado">
+            <option selected>Selecione o estado</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Bairro</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Coloque aqui o bairro do funcionario">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Logradouro</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Coloque aqui o CEP do funcionario">
+    </div>
+    
 </form>
+
+<div class="btnbtn-group">   
+    <button class="btn-outline-primary" btn="btn-primary" >Salvar</button>
+    <button class="btn-outline-danger" btn="btn-danger" >Cancelar</button>
+</div>
+
+
